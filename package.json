@@ -1,0 +1,26 @@
+{
+  "name": "playing-with-sockets-on-node",
+  "version": "1.0.0",
+  "description": "exercising Sockets knowledge using the net package on node js.",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "tsnd --respawn server.ts",
+    "start:client": "tsnd --respawn client.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnjoker13/Playing-with-Sockets-on-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnjoker13/Playing-with-Sockets-on-Node.js/issues"
+  },
+  "homepage": "https://github.com/johnjoker13/Playing-with-Sockets-on-Node.js#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
